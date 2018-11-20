@@ -1,0 +1,14 @@
+c:\users\user\source\repos\RealCarAPI\RealCarAPI\bin\Debug\netcoreapp2.1\RealCarAPI.deps.json
+c:\users\user\source\repos\RealCarAPI\RealCarAPI\bin\Debug\netcoreapp2.1\RealCarAPI.runtimeconfig.json
+c:\users\user\source\repos\RealCarAPI\RealCarAPI\bin\Debug\netcoreapp2.1\RealCarAPI.runtimeconfig.dev.json
+c:\users\user\source\repos\RealCarAPI\RealCarAPI\bin\Debug\netcoreapp2.1\RealCarAPI.dll
+c:\users\user\source\repos\RealCarAPI\RealCarAPI\bin\Debug\netcoreapp2.1\RealCarAPI.pdb
+c:\users\user\source\repos\RealCarAPI\RealCarAPI\obj\Debug\netcoreapp2.1\RealCarAPI.csprojAssemblyReference.cache
+c:\users\user\source\repos\RealCarAPI\RealCarAPI\obj\Debug\netcoreapp2.1\RealCarAPI.csproj.CoreCompileInputs.cache
+c:\users\user\source\repos\RealCarAPI\RealCarAPI\obj\Debug\netcoreapp2.1\RealCarAPI.RazorAssemblyInfo.cache
+c:\users\user\source\repos\RealCarAPI\RealCarAPI\obj\Debug\netcoreapp2.1\RealCarAPI.RazorAssemblyInfo.cs
+c:\users\user\source\repos\RealCarAPI\RealCarAPI\obj\Debug\netcoreapp2.1\RealCarAPI.AssemblyInfoInputs.cache
+c:\users\user\source\repos\RealCarAPI\RealCarAPI\obj\Debug\netcoreapp2.1\RealCarAPI.AssemblyInfo.cs
+c:\users\user\source\repos\RealCarAPI\RealCarAPI\obj\Debug\netcoreapp2.1\RealCarAPI.RazorTargetAssemblyInfo.cache
+c:\users\user\source\repos\RealCarAPI\RealCarAPI\obj\Debug\netcoreapp2.1\RealCarAPI.dll
+c:\users\user\source\repos\RealCarAPI\RealCarAPI\obj\Debug\netcoreapp2.1\RealCarAPI.pdb
