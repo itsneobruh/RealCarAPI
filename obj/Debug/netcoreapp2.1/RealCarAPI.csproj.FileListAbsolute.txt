@@ -26,17 +26,3 @@ c:/users/user/source/repos/RealCarAPI/RealCarAPI/obj/Debug/netcoreapp2.1/RealCar
 /Users/Neo/RealCarAPI/obj/Debug/netcoreapp2.1/RealCarAPI.RazorTargetAssemblyInfo.cache
 /Users/Neo/RealCarAPI/obj/Debug/netcoreapp2.1/RealCarAPI.dll
 /Users/Neo/RealCarAPI/obj/Debug/netcoreapp2.1/RealCarAPI.pdb
-C:\Users\User\Documents\Commit\_MSACarAPI\bin\Debug\netcoreapp2.1\RealCarAPI.deps.json
-C:\Users\User\Documents\Commit\_MSACarAPI\bin\Debug\netcoreapp2.1\RealCarAPI.runtimeconfig.json
-C:\Users\User\Documents\Commit\_MSACarAPI\bin\Debug\netcoreapp2.1\RealCarAPI.runtimeconfig.dev.json
-C:\Users\User\Documents\Commit\_MSACarAPI\bin\Debug\netcoreapp2.1\RealCarAPI.dll
-C:\Users\User\Documents\Commit\_MSACarAPI\bin\Debug\netcoreapp2.1\RealCarAPI.pdb
-C:\Users\User\Documents\Commit\_MSACarAPI\obj\Debug\netcoreapp2.1\RealCarAPI.csprojAssemblyReference.cache
-C:\Users\User\Documents\Commit\_MSACarAPI\obj\Debug\netcoreapp2.1\RealCarAPI.csproj.CoreCompileInputs.cache
-C:\Users\User\Documents\Commit\_MSACarAPI\obj\Debug\netcoreapp2.1\RealCarAPI.RazorAssemblyInfo.cache
-C:\Users\User\Documents\Commit\_MSACarAPI\obj\Debug\netcoreapp2.1\RealCarAPI.RazorAssemblyInfo.cs
-C:\Users\User\Documents\Commit\_MSACarAPI\obj\Debug\netcoreapp2.1\RealCarAPI.AssemblyInfoInputs.cache
-C:\Users\User\Documents\Commit\_MSACarAPI\obj\Debug\netcoreapp2.1\RealCarAPI.AssemblyInfo.cs
-C:\Users\User\Documents\Commit\_MSACarAPI\obj\Debug\netcoreapp2.1\RealCarAPI.RazorTargetAssemblyInfo.cache
-C:\Users\User\Documents\Commit\_MSACarAPI\obj\Debug\netcoreapp2.1\RealCarAPI.dll
-C:\Users\User\Documents\Commit\_MSACarAPI\obj\Debug\netcoreapp2.1\RealCarAPI.pdb
