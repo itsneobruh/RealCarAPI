@@ -23,9 +23,9 @@ namespace RealCarAPI.Models
                 context.CarItem.AddRange(
                     new CarItem
                     {
-                        Title = "Is Mayo an Instrument?",
-                        Url = "https://i.kym-cdn.com/photos/images/original/001/371/723/be6.jpg",
-                        Tags = "spongebob",  
+                        Title = "Evo 3",
+                        Url = "https://thecarblob.blob.core.windows.net/images/Evo 3.jpg",
+                        Tags = "Mazda",  
                         Width = "768",
                         Height = "432",
                         Engine = "1600cc",

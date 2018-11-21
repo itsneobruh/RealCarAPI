@@ -187,8 +187,8 @@ namespace RealCarAPI.Controllers
         private async Task<CloudBlockBlob> UploadToBlob(string filename, byte[] imageBuffer = null, System.IO.Stream stream = null)
         {
 
-            var accountName = _configuration["AzureBlob:name"];
-            var accountKey = _configuration["AzureBlob:key"]; ;
+            var accountName = _configuration["AzureBlob:thecarblob"];
+            var accountKey = _configuration["AzureBlob:DRVpOk+6glN7V9gicUk7tyIu2VFEpPN+ZNekwQBWKnlgIzkr6+8ZB3OL6PdNkc8LYnuiq45gq79MdhoABVXEuw=="]; ;
             var storageAccount = new CloudStorageAccount(new StorageCredentials(accountName, accountKey), true);
             CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient();
 

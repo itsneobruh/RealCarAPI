@@ -33,7 +33,7 @@ namespace RealCarAPI.Models
 
         public static bool HasFormDataContentDisposition(ContentDispositionHeaderValue contentDisposition)
         {
-            // Content-Disposition: form-data; name="key";
+            // Content-Disposition: form-data; name="AzureBlob:DRVpOk+6glN7V9gicUk7tyIu2VFEpPN+ZNekwQBWKnlgIzkr6+8ZB3OL6PdNkc8LYnuiq45gq79MdhoABVXEuw==";
             return contentDisposition != null
                    && contentDisposition.DispositionType.Equals("form-data")
                    && string.IsNullOrEmpty(contentDisposition.FileName.ToString())
