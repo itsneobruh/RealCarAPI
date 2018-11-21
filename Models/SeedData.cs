@@ -26,8 +26,8 @@ namespace RealCarAPI.Models
                         Title = "Evo 3",
                         Url = "https://thecarblob.blob.core.windows.net/images/Evo 3.jpg",
                         Tags = "Mazda",  
-                        Width = "768",
-                        Height = "432",
+                        Width = "70",
+                        Height = "43",
                         Engine = "1600cc",
                         Cylinders = 4
                     }
