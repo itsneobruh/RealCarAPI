@@ -164,6 +164,7 @@ namespace RealCarAPI.Controllers
                     carItem.Title = car.Title;
                     carItem.Tags = car.Tags;
 
+
                     System.Drawing.Image image = System.Drawing.Image.FromStream(stream);
                     carItem.Height = image.Height.ToString();
                     carItem.Width = image.Width.ToString();

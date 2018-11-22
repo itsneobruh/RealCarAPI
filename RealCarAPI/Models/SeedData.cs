@@ -24,7 +24,7 @@ namespace RealCarAPI.Models
                     new CarItem
                     {
                         Title = "Evo 3",
-                        Url = "https://thecarblob.blob.core.windows.net/images/Evo3.jpg",
+                        Url = "https://thecarblob.blob.core.windows.net/images/Evo%203.jpg?sv=2017-11-09&ss=bqtf&srt=sco&sp=rwdlacup&se=2018-11-22T19:50:23Z&sig=lxLiKdUDmc668QVXT7TnTihWu4SF2JC4OkNNHLxD%2BcA%3D&_=1542887426900",
                         Tags = "Mitsubishi",  
                         Width = "70",
                         Height = "43",
