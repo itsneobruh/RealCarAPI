@@ -24,13 +24,14 @@ namespace RealCarAPI.Models
                     new CarItem
                     {
                         Title = "Evo 3",
-                        Url = "https://thecarblob.blob.core.windows.net/images/Evo 3.jpg",
-                        Tags = "Mazda",  
+                        Url = "https://thecarblob.blob.core.windows.net/images/Evo3.jpg",
+                        Tags = "Mitsubishi",  
                         Width = "70",
                         Height = "43",
                         Engine = "1600cc",
                         Cylinders = 4
                     }
+
 
 
                 );
