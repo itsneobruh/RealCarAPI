@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{2A94FFC7-0623-431F-AE24-A1D2BF92CE3C}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/CarItemsController.cs">
     <Files>
-      <File FileName="Controllers/CarItemsController.cs" Line="198" Column="48" />
-      <File FileName="Models/SeedData.cs" Line="20" Column="39" />
       <File FileName="Models/CarImageItems.cs" Line="9" Column="31" />
+      <File FileName="Models/CarItem.cs" Line="1" Column="1" />
+      <File FileName="Migrations/RealCarAPIContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="Migrations/20181119134458_InitialCreate.Designer.cs" Line="1" Column="1" />
+      <File FileName="Migrations/20181119134458_InitialCreate.cs" Line="36" Column="1" />
+      <File FileName="Controllers/CarItemsController.cs" Line="189" Column="79" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.RealCarAPI PreferredExecutionTarget="MonoDevelop.Default" />
