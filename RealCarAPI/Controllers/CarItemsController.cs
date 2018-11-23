@@ -18,7 +18,7 @@ namespace RealCarAPI.Controllers
     public class CarItemsController : ControllerBase
     {
         private readonly RealCarAPIContext _context;
-        private IConfiguration _configuration;
+        private readonly IConfiguration _configuration;
 
         public CarItemsController(RealCarAPIContext context, IConfiguration configuration)
         {
@@ -129,13 +129,19 @@ namespace RealCarAPI.Controllers
             return _context.CarItem.Any(e => e.Id == id);
         }
 
-        // GET: api/Meme/Tags
-        [Route("tags")]
+        // GET: api/CarItems/Tags
+        [Route("tag")]
         [HttpGet]
-        public async Task<List<string>> GetTags()
+        public async Task<List<CarItem>> GetTagsItem([FromQuery] string tags)
         {
-            var CarItem = (from c in _context.CarItem
-                         select c.Tags).Distinct();
+            var CarItem = from m in _context.CarItem
+                          select m;
+
+            if(!string.IsNullOrEmpty(tags))
+            
+            {
+                CarItem = CarItem.Where(s => s.Tags.ToLower().Equals(tags.ToLower()));
+            }
 
             var returned = await CarItem.ToListAsync();
 
@@ -220,7 +226,7 @@ namespace RealCarAPI.Controllers
 
                     return cloudBlockBlob;
                 }
-                catch (StorageException ex)
+                catch (StorageException)
                 {
                     return new CloudBlockBlob(new Uri(""));
                 }
