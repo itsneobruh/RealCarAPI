@@ -18,7 +18,7 @@ namespace RealCarAPI.Controllers
     public class CarItemsController : ControllerBase
     {
         private readonly RealCarAPIContext _context;
-        private readonly IConfiguration _configuration;
+        private IConfiguration _configuration;
 
         public CarItemsController(RealCarAPIContext context, IConfiguration configuration)
         {
@@ -43,7 +43,6 @@ namespace RealCarAPI.Controllers
             }
 
             var carItem = await _context.CarItem.FindAsync(id);
-
             if (carItem == null)
             {
                 return NotFound();
@@ -160,15 +159,17 @@ namespace RealCarAPI.Controllers
                 {
                     var cloudBlock = await UploadToBlob(car.Image.FileName, null, stream);
                     //// Retrieve the filename of the file you have uploaded
-                    //var filename = provider.FileData.FirstOrDefault()?.LocalFileName;
+                    // var filename = provider.FileData.FirstOrDefault()?.LocalFileName;
                     if (string.IsNullOrEmpty(cloudBlock.StorageUri.ToString()))
                     {
                         return BadRequest("An error has occured while uploading your file. Please try again.");
                     }
 
-                    CarItem carItem = new CarItem();
-                    carItem.Title = car.Title;
-                    carItem.Tags = car.Tags;
+                    CarItem carItem = new CarItem
+                    {
+                        Title = car.Title,
+                        Tags = car.Tags
+                    };
 
 
                     System.Drawing.Image image = System.Drawing.Image.FromStream(stream);
@@ -194,7 +195,7 @@ namespace RealCarAPI.Controllers
         private async Task<CloudBlockBlob> UploadToBlob(string filename, byte[] imageBuffer = null, System.IO.Stream stream = null)
         {
 
-            var accountName = _configuration["AzureBlob:thecarblob"];
+            var accountName = _configuration["thecarblob"];
             var accountKey = _configuration["AzureBlob:DRVpOk+6glN7V9gicUk7tyIu2VFEpPN+ZNekwQBWKnlgIzkr6+8ZB3OL6PdNkc8LYnuiq45gq79MdhoABVXEuw=="]; ;
             var storageAccount = new CloudStorageAccount(new StorageCredentials(accountName, accountKey), true);
             CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient();
