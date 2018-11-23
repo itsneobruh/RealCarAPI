@@ -26,8 +26,8 @@ namespace RealCarAPI.Models
                         Title = "Evo 3",
                         Url = "https://thecarblob.blob.core.windows.net/images/Evo 3.jpg",
                         Tags = "Mitsubishi",  
-                        Width = "70",
-                        Height = "43",
+                        Width = "10",
+                        Height = "7",
                         Engine = "2000cc",
                         Cylinders = 4
                     }
